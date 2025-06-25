@@ -231,7 +231,7 @@ nav i {
 
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 }
 
 #pepsi {
@@ -241,7 +241,7 @@ nav i {
 
     left: 50%;
     transform: translate(-50%, 0%);
-    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
 }
 
 .lemon {
