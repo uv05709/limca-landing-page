@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+
+    /* background-color: bisque; */
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+    background: linear-gradient(to right, #4caf50, #cddc39, #ffc107, #ff9800);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    z-index: 99;
+}
+
+nav a {
+    font-size: 1vw;
+    text-decoration: none;
+}
+nav img{
+    width: 10%;
+    height: 110px;
+}
+
+.center-nav {
+    display: flex;
+    gap: 3vw;
+}
+
+nav i {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+#full{
+    z-index: 9;
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.479);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 50px;
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#full i{
+    position:absolute;
+    top: 10%;
+    right: 10%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.one {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #c6f50d, #7ed957, #4caf50);
+}
+
+.one h1 {
+    font-size: 20vw;
+    color: #fff;
+}
+
+#limca {
+    position: absolute;
+    width: 52%;
+    z-index: 2;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#orange-cut {
+    position: absolute;
+    width: 15%;
+    top: 10%;
+    left: 30%;
+    z-index: 1;
+}
+
+#orange {
+    position: absolute;
+    width: 20%;
+    z-index: 3;
+    top: 55%;
+    right: 30%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#leaf1 {
+    top: 10%;
+    left: 0%;
+    transform: rotate(110deg);
+    position: absolute;
+    width: 18%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#leaf2 {
+    top: 70%;
+    left: 80%;
+    transform: rotate(-90deg);
+    position: absolute;
+    width: 12%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#leaf3 {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0%;
+}
+
+.two {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #4caf50, #ff9800, #f44336);
+
+}
+
+.left-two,
+.rgt-two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50%;
+    height: 100%;
+}
+
+.left-two svg {
+
+    width: 70%;
+    margin-top: 50vh;
+}
+
+.rgt-two h1 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.rgt-two p {
+    font-size: 1vw;
+    color: #fff;
+    width: 70%;
+}
+
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9800, #ff5722, #f44336);
+
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    width: 25vw;
+    height: 70vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.card h1 {
+    font-size: 3vw;
+    margin-top: 40vh;
+}
+
+.card button {
+    background-color: orange;
+    border: none;
+    font-size: 1vw;
+    border-radius: 50px;
+    padding: 1vw 2vw;
+}
+
+#cocacola {
+    top: 0%;
+    position: absolute;
+    width: 70%;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#pepsi {
+    top: 0%;
+    position: absolute;
+    width: 120%;
+
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.lemon {
+
+    top: -20%;
+    position: absolute;
+
+    width: 20vw;
+    /*         
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s; */
+}
+
+
+#move{
+background: linear-gradient(to right, #2e2e2e, #ff5e00, #ff3c00);
+    display: flex;
+    padding: 2vw 0;
+ 
+}
+.marque {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    transform: translateX(-100%);
+}
+.marque h1{
+    font-size: 4vw;
+    font-style: italic;
+}
+.marque img{
+    height: 70px;
+    
+}
