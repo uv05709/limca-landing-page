@@ -13,9 +13,17 @@ This is a **static landing page for Limca**, created using **HTML, CSS, JavaScri
 
 ---
 
-## 🎥 Preview Video
+## ✨ Preview
 
-https://github.com/uv05709/limca-landing-page/blob/8e9c84e2350381a49b59895e8565091df03c4041/limca-preview.mp4
+### 🎥 Video Preview  
+[▶️ Watch Preview](https://github.com/uv05709/limca-landing-page/blob/8e9c84e2350381a49b59895e8565091df03c4041/limca-preview.mp4)
+
+### 🖼️ Screenshot  
+![Limca Landing Page Screenshot](https://github.com/uv05709/limca-landing-page/blob/7778c887ac2a1f8492fbe55d898c3e4cf5187e16/preview%20page.png))  
+
+
+---
+
 
 ## 📂 Project Structure
 
